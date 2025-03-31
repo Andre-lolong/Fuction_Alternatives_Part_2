@@ -8,3 +8,6 @@ def removesuffix_alternative(text, suffix):
         return text[:-len(suffix)]
     return text
 
+main_text = input("Enter the main text: ")
+suffix = input("Enter a suffix: ")
+print(removesuffix_alternative(main_text, suffix))
