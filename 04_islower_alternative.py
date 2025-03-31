@@ -7,3 +7,5 @@ def islower_alternative(text):
             return False
     return True
 
+main_text = input("Enter something: ")
+print(islower_alternative(main_text))
