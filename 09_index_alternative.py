@@ -7,3 +7,7 @@ def index_alternative(text, target):
         if text[i:i + len(target)] == target:
             return i
     return -1
+
+statement = input("Enter something: ")
+target_input = input("Enter the target input you want to use index on: ")
+print(index_alternative(statement, target_input))
