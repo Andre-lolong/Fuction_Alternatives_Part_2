@@ -9,3 +9,7 @@ def count_alternative(text, target):
         if text[i:i + len(target)] == target:
             count += 1
     return count
+
+statement = input("Enter something: ")
+target = input("Enter the target input you want to count: ")
+print(count_alternative(statement, target))
